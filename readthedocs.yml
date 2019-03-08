@@ -4,4 +4,4 @@ formats:
     - pdf
 
 conda:
-    file: environment.yml
+    environment: environment.yml
