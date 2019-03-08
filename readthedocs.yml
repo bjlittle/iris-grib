@@ -1,7 +1,15 @@
 version: 2
 
 formats:
-    - pdf
+  - pdf
 
-#conda:
-#    environment: environment.yml
+conda:
+  environment: docs/environment.yml
+
+python:
+  version: 3.7
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - scitools-iris

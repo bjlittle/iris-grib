@@ -1,5 +1,5 @@
 channels:
     - conda-forge
 dependencies:
-    - iris=2.*
+    - python = 3.7
     - python-eccodes
