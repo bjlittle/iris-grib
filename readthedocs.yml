@@ -3,5 +3,5 @@ version: 2
 formats:
     - pdf
 
-conda:
-    environment: environment.yml
+#conda:
+#    environment: environment.yml
