@@ -300,13 +300,4 @@ intersphinx_mapping = {
     'iris': ('http://scitools.org.uk/iris/docs/latest/', None),
 }
 
-import sys
-from unittest.mock import MagicMock
-
-class Mock(MagicMock):
-    @classmethod
-    def __getatr__(cls, name):
-        return MagicMock()
-
-MOCK_MODULES = ['cartopy', 'iris', 'cf_units']
-sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)
+autodoc_mock_imports = ['cartopy', 'iris', 'cf_units']
