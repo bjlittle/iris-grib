@@ -1,6 +1,7 @@
 channels:
-    - conda-forge
+  - conda-forge
 dependencies:
-    - python=3.7
-    - cartopy
-    - python-eccodes
+  - python=3.7
+  - cartopy
+  - python-eccodes
+  - cf-units
