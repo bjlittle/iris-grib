@@ -1,2 +1,7 @@
+version: 2
+
+formats:
+    - pdf
+
 conda:
     file: environment.yml
