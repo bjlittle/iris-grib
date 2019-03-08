@@ -5,3 +5,4 @@ dependencies:
   - cartopy
   - python-eccodes
   - cf-units
+  - pip
