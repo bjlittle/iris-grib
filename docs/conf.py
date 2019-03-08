@@ -299,5 +299,3 @@ intersphinx_mapping = {
     'python': ('https://docs.python.org/', None),
     'iris': ('http://scitools.org.uk/iris/docs/latest/', None),
 }
-
-autodoc_mock_imports = ['cartopy', 'iris', 'cf_units']
